@@ -68,7 +68,7 @@ On the other side, I would style everything to fit the whole page as it would ma
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://www.loom.com/share/9744249407ea432da6a6ad9011fc4f8f)
 
 
 ## License
