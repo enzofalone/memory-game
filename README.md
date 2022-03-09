@@ -47,13 +47,17 @@ The following **additional** features are implemented:
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+
 https://developer.mozilla.org/en-US/docs/Web/API/setInterval
+
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+
 I specifically tried to create the logic of the guess function by myself. However, I got stuck after the walkthrough as I tried to use a while loop but after walking through what I was doing step-by-step as I was figuring out how to make the player go through his whole turn. I ended up realizing that I could do everything without any loops as the variables were already provided to create the conditional logic as the function is called every time the user clicks any of the buttons, this led me to use the guessCounter variable as the main driver. Furthermore, the timer was something I was having trouble with, as I was creating the interval variable inside the block it was being created alongside with my own variable outside, resulting in two intervals being invoked and my clearInterval call was not enough to solve it as it could not reference the variable created inside the function. To solve this, I had to thoroughly inspect and debug every part it was being called to catch the mistake I did as it was being called every time, I did something in the game. As a result, I did find this problem quickly and successfully had the game flowing as I desired.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+
 I would like to learn better about UX/UI design, such as choosing palettes, styling with more complexity the buttons, sticking to one style and being consistent with it across the page, knowing where to place all my elements, and how to make this webpage responsive for cellphones as my main goal is for my website to work everywhere. Additionally, I would like to learn how to align everything in place perfectly without having problems with sizes as I had them with my counters when they are unhidden
 
 Moreover, I would like to learn about how to make the buttons more responsive about the position of the mouse and where it is clicking in terms of not getting a bug when the user drags his click outside the box, where in some cases, the playTone function would stick and would not execute the stopTone button. 
