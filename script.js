@@ -48,6 +48,7 @@ function startGame() {
   stopBtn.classList.remove("hidden");
   //show strikeCount
   strikeCountText.classList.remove("hidden");
+  strikeCountText.innerText = "Strikes: ";
   //create random pattern at the start of every game
   pattern = createRandomPattern(6);
   console.log(pattern);
