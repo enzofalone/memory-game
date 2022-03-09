@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-  }
+
   
   body {
       margin: 2em;
@@ -15,12 +13,26 @@
     color: wheat;
   }
   
+#gameControlsArea {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+#gameControlsArea > h2 {
+  margin-left: 1em;
+}
   /* button properties */
   
   button {
     padding: 10px;
     border-radius: 10px;  
     border: solid 2px black;
+    
+    width: 5em;
+    height: 3em;
+    
+    align-self: center;
   }
 
   #startBtn:hover, #stopBtn:hover {
