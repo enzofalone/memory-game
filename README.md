@@ -34,7 +34,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] Timer gets red when it is under 5 seconds
+- [x] Timer turns red when it is under 5 seconds
 - [x] Hover animation for the start/stop button
 - [x] Custom borders for the buttons in order to add a sketchy design that combines with the light colors
 - [x] Strikes are shown through an alert and updated under the Start/Stop button
