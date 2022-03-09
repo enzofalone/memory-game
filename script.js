@@ -48,8 +48,6 @@ function startGame() {
   stopBtn.classList.remove("hidden");
   //show strikeCount
   strikeCountText.classList.remove("hidden");
-  //reset strike count in case the user is playing a second game
-  strikeCountText.innerText = "Strikes: ";
   //create random pattern at the start of every game
   pattern = createRandomPattern(6);
   console.log(pattern);
@@ -191,11 +189,11 @@ function guess(btn) {
 
 // Sound Synthesis Functions
 const freqMap = {
-  1: 261.6,
-  2: 329.6,
-  3: 392,
-  4: 466.2,
-  5: 520.0,
+  1: 200.6,
+  2: 250.6,
+  3: 300,
+  4: 350.2,
+  5: 400.0,
 };
 function playTone(btn, len) {
   o.frequency.value = freqMap[btn];
