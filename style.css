@@ -55,12 +55,15 @@
   }
   
   #gameButtonArea > button {
-    width: 90vh;
+    width: 200px;
     max-width: 200px;
     min-width: 10vh;
+    
     height: 200px;
+    
     margin: 2px;
-    padding: 0;
+
+    padding: 10px;
   }
   
   #gameButtonArea > button > img {
