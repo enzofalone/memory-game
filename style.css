@@ -49,17 +49,25 @@
   }
    */
   #gameButtonArea {
+    display: flex;
     user-select: none;
     margin-top: 1em;
   }
   
   #gameButtonArea > button {
-    width: 200px;
+    width: 90vh;
+    max-width: 200px;
+    min-width: 10vh;
     height: 200px;
     margin: 2px;
-    
+    padding: 0;
   }
   
+  #gameButtonArea > button > img {
+    max-width: 100%;
+    margin: auto;
+  }
+
   #button1 {
     background: lightgreen;
   }

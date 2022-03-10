@@ -1,12 +1,14 @@
 //global constants
 const cluePauseTime = 333; //time to wait between clues
 const nextClueWaitTime = 1000; //time to wait before starting playback of the clue sequence
-const TIMER_DEFAULT_SECONDS = 10;
+const TIMER_DEFAULT_SECONDS = 10; 
+
 //elements
 const startBtn = document.getElementById("startBtn");
 const stopBtn = document.getElementById("stopBtn");
 const timerText = document.getElementById("timer");
 const strikeCountText = document.getElementById("strikeCounter");
+
 //global variables
 var pattern = [5, 2, 2, 4, 5, 3, 2, 5, 1, 2];
 var progress = 0;
@@ -142,6 +144,7 @@ function stopTimer() {
   seconds = TIMER_DEFAULT_SECONDS;
   timerText.style.color = "wheat";
   clearInterval(timerInterval);
+  timerInterval = null;
 }
 
 function updateStrikes() {
