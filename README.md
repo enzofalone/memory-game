@@ -52,6 +52,8 @@ https://developer.mozilla.org/en-US/docs/Web/API/setInterval
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
 
+https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
+
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
 I specifically tried to create the logic of the guess function by myself. However, I got stuck after the walkthrough as I tried to use a while loop but after walking through what I was doing step-by-step as I was figuring out how to make the player go through his whole turn. I ended up realizing that I could do everything without any loops as the variables were already provided to create the conditional logic as the function is called every time the user clicks any of the buttons, this led me to use the guessCounter variable as the main driver. Furthermore, the timer was something I was having trouble with, as I was creating the interval variable inside the block it was being created alongside with my own variable outside, resulting in two intervals being invoked and my clearInterval call was not enough to solve it as it could not reference the variable created inside the function. To solve this, I had to thoroughly inspect and debug every part it was being called to catch the mistake I did as it was being called every time, I did something in the game. As a result, I did find this problem quickly and successfully had the game flowing as I desired.
