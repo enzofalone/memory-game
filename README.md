@@ -7,6 +7,7 @@ Submitted by: **Enzo Falone**
 Time spent: **5** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/hospitable-nice-ocicat
+Live preview with GitHub Pages: https://enzofalone.github.io/memory-game/
 
 ## Required Functionality
 
