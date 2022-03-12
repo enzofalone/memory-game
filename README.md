@@ -65,6 +65,7 @@ I would like to learn better about UX/UI design, such as choosing palettes, styl
 Moreover, I would like to learn about how to make the buttons more responsive about the position of the mouse and where it is clicking in terms of not getting a bug when the user drags his click outside the box, where in some cases, the playTone function would stick and would not execute the stopTone button. 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+
 I would end adding sounds and images as I could not find any short sounds as guitar cords. Moreover, I would make this game infinite and implement a scoreboard in order to show the accumulated points by the user where the score would increase after every successful turn and increasing every time the game is more complex. 
 
 On the other side, I would style everything to fit the whole page as it would make the webpage look more modern. Designing better counters, utilizing cross signs for the strikes and creating a little box for the seconds left in addition to a ticking sound when the time is running out.
