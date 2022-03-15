@@ -119,9 +119,10 @@ function playClueSequence() {
 
 function startTimer() {
 	if (!gamePlaying) return;
-
+	//reset timer settings and remove hidden class so it can be visible
 	timerText.classList.remove("hidden");
 	timerText.innerText = `Seconds left: ${seconds}`;
+	timerText.style.color = DEFAULT_FONT_COLOR;
 	//save interval in variable so we can clear it when the user passes the turn
 	timerInterval = setInterval(() => {
 		if (seconds > 0) {

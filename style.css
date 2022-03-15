@@ -21,8 +21,9 @@ h1 {
 
 #gameControlsArea {
 	display: flex;
-	width: 100%;
-	justify-content: flex-start;
+	min-width: 70%;
+	justify-content: space-between;
+	
 }
 
 #gameControlsArea>h2 {
@@ -59,13 +60,15 @@ button {
 #gameButtonArea {
 	display: flex;
 	user-select: none;
-	margin-top: 1em;
+	margin-top: 2em;
+	justify-content: center;
 }
 
 #gameButtonArea>button {
 	width: 200px;
 	max-width: 200px;
 	min-width: 10vh;
+	min-height: 10vh;
 
 	height: 200px;
 
