@@ -41,6 +41,7 @@ The following **additional** features are implemented:
 - [x] Custom borders for the buttons in order to add a sketchy design that combines with the light colors
 - [x] Strikes are shown through an alert and updated under the Start/Stop button
 - [x] Used flexboxes in order to arrange all counters within the same input/output row
+- [x] Imported local font using @font-face
 
 ## Video Walkthrough (GIF)
 

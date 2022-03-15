@@ -201,13 +201,6 @@ function guess(btn) {
 }
 
 // Sound Synthesis Functions
-// const freqMap = {
-// 	1: 200.6,
-// 	2: 250.6,
-// 	3: 300,
-// 	4: 350.2,
-// 	5: 400.0,
-// };
 
 const audioMap = {
 	1: audioLaser,
@@ -219,7 +212,6 @@ const audioMap = {
 
 function playTone(btn, len) {
 	audioMap[btn].play();
-	// g.gain.setTargetAtTime(volume, context.currentTime + 0.05, 0.025);
 	context.resume();
 	tonePlaying = true;
 	setTimeout(function () {
@@ -231,24 +223,14 @@ function startTone(btn) {
 	if (!tonePlaying) {
 		context.resume();
 		audioMap[btn].play();
-		// g.gain.setTargetAtTime(volume, context.currentTime + 0.05, 0.025);
 		context.resume();
 		tonePlaying = true;
 	}
 }
 
 function stopTone() {
-	// g.gain.setTargetAtTime(0, context.currentTime + 0.05, 0.025);
 	tonePlaying = false;
 }
 
 // // Page Initialization
-// // Init Sound Synthesizer
 var context = new AudioContext();
-// var AudioContext = window.AudioContext || window.webkitAudioContext;
-// var o = context.createOscillator();									replaced for audio sounds
-// var g = context.createGain();
-// g.connect(context.destination);
-// g.gain.setValueAtTime(0, context.currentTime);
-// o.connect(g);
-// o.start(0);
