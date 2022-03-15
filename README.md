@@ -30,8 +30,8 @@ The following **optional** features are implemented:
 * [x] Playback speeds up on each turn
 * [x] Computer picks a different pattern each time the game is played
 * [x] Player only loses after 3 mistakes (instead of on the first mistake)
-* [ ] Game button appearance change goes beyond color (e.g. add an image)
-* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [x] Game button appearance change goes beyond color (e.g. add an image)
+* [x] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [x] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 - [x] Hover animation for the start/stop button
 - [x] Custom borders for the buttons in order to add a sketchy design that combines with the light colors
 - [x] Strikes are shown through an alert and updated under the Start/Stop button
-- [x] Used flexboxes in order to arrange all counters within the same row
+- [x] Used flexboxes in order to arrange all counters within the same input/output row
 
 ## Video Walkthrough (GIF)
 
@@ -53,6 +53,10 @@ The following **additional** features are implemented:
 https://developer.mozilla.org/en-US/docs/Web/API/setInterval
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
+
+https://stackoverflow.com/questions/9419263/how-to-play-audio
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
