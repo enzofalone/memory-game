@@ -45,8 +45,8 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-![](https://github.com/enzofalone/memory-game/blob/main/memorygame.gif)
-![](https://github.com/enzofalone/memory-game/blob/main/memorygame2.gif)
+![](https://github.com/enzofalone/memory-game/blob/main/memorygamev2.gif)
+
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
