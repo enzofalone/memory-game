@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "FFFFORWA";
-	src: url("assets/FFFFORWA.TTF") format("truetype")
+	src: url("./assets/FFFFORWA.TTF") format("truetype")
 }
 
 body {
