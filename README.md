@@ -67,7 +67,7 @@ I specifically tried to create the logic of the guess function by myself. Howeve
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 
-I would like to learn better about UX/UI design, such as choosing palettes, styling with more complexity the buttons, sticking to one style and being consistent with it across the page, knowing where to place all my elements, and how to make this webpage responsive for cellphones as my main goal is for my website to work everywhere. Additionally, I would like to learn how to align everything in place perfectly without having problems with sizes as I had them with my counters when they are unhidden
+I would like to learn better about UX/UI design, such as choosing palettes, styling with more complexity the buttons, sticking to one style and being consistent with it across the page, knowing where to place all my elements, and how to make this webpage responsive for cellphones as my main goal is for my website to work everywhere. Creating this application was very fun but I felt like I am missing something in order to increase the feel and have a better design that is more atractive to the eye which is something I want to improve on. Additionally, I would like to learn how to align everything in place perfectly without having problems with sizes as I had them with my counters when they are unhidden alongside with the start/stop button.
 
 Moreover, I would like to learn about how to make the buttons more responsive about the position of the mouse and where it is clicking in terms of not getting a bug when the user drags his click outside the box, where in some cases, the playTone function would stick and would not execute the stopTone button. 
 
