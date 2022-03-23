@@ -77,6 +77,8 @@ I would end adding sounds and images as I could not find any short sounds as gui
 
 On the other side, I would style everything to fit the whole page as it would make the webpage look more modern. Designing better counters, utilizing cross signs for the strikes and creating a little box for the seconds left in addition to a ticking sound when the time is running out.
 
+Besides, I would also refactorize the code by creating modules for a game manager and audio manager in order to increase the readability and improve the ease of access for other developers to dig into the code without having to scroll back and forth between many lines of codes that are dedicated to many different aspects of the game. In the CSS file, I would refactorize the code by creating different files as well in order to improve organization in case I want to keep working in this project.  
+
 ## Interview Recording URL Link
 
 [My 5-minute Interview Recording](https://www.loom.com/share/c6bb115d298d416cad0ad69ef9be43c6)
